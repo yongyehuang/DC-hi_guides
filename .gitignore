@@ -1,0 +1,6 @@
+*.pkl
+*.pyc
+*.ipynb_checkpoints
+result/*
+*.npz
+
