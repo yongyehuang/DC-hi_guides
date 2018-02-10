@@ -1,0 +1,181 @@
+2018-01-31 12:29:20,354 - gridsearch_1_xgb.py:86 - search - X_train.shape=(40307, 20), X_test.shape=(10076, 20)
+2018-01-31 12:29:31,625 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; learning_rate=0.5, auc=0.6881198, round=46
+2018-01-31 12:29:38,268 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; learning_rate=1.0, auc=0.6826178, round=10
+2018-01-31 12:29:48,495 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; learning_rate=1.5, auc=0.6788606, round=44
+2018-01-31 12:29:59,205 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; max_depth=5, auc=0.6881198, round=46
+2018-01-31 12:30:11,924 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; max_depth=6, auc=0.6863415, round=58
+2018-01-31 12:30:19,258 - gridsearch_1_xgb.py:45 - search - Best_auc=0.6881198; max_depth=7, auc=0.6863263, round=13
+2018-01-31 12:30:19,259 - gridsearch_1_xgb.py:94 - search - {'learning_rate': [0.5, 1.0, 1.5], 'max_depth': [5, 6, 7]}
+2018-01-31 12:38:27,068 - gridsearch_1_xgb.py:86 - search - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 12:38:27,068 - gridsearch_1_xgb.py:92 - search - {'learning_rate': [0.025, 0.05, 0.1, 0.15, 0.2], 'colsample_bytree': [0.6, 0.7, 0.8], 'max_depth': [4, 5, 6, 7]}
+2018-01-31 13:07:03,579 - gridsearch_1_xgb.py:45 - search - Best_auc=0.96978; learning_rate=0.025, auc=0.96978, round=1695
+2018-01-31 13:23:11,928 - gridsearch_1_xgb.py:45 - search - Best_auc=0.96978; learning_rate=0.05, auc=0.9696117, round=942
+2018-01-31 13:29:59,943 - gridsearch_1_xgb.py:45 - search - Best_auc=0.96978; learning_rate=0.1, auc=0.9689737, round=368
+2018-01-31 13:34:02,723 - gridsearch_1_xgb.py:45 - search - Best_auc=0.96978; learning_rate=0.15, auc=0.9678443, round=200
+2018-01-31 13:38:11,250 - gridsearch_1_xgb.py:45 - search - Best_auc=0.96978; learning_rate=0.2, auc=0.9670323, round=206
+2018-01-31 14:00:38,955 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9699753; colsample_bytree=0.6, auc=0.9699753, round=1699
+2018-01-31 14:24:23,884 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9699753; colsample_bytree=0.7, auc=0.9698733, round=1577
+2018-01-31 14:52:54,811 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9699753; colsample_bytree=0.8, auc=0.96978, round=1695
+2018-01-31 15:17:19,587 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9699753; max_depth=4, auc=0.9695309, round=2273
+2018-01-31 15:39:49,217 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9699753; max_depth=5, auc=0.9699753, round=1699
+2018-01-31 16:00:01,991 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9700818; max_depth=6, auc=0.9700818, round=1279
+2018-01-31 16:21:04,639 - gridsearch_1_xgb.py:45 - search - Best_auc=0.9700818; max_depth=7, auc=0.9700155, round=971
+2018-01-31 16:21:04,640 - gridsearch_1_xgb.py:95 - search - Finished Search! Best auc=0.9700818. Best params are 
+{'eval_metric': 'auc', 'scale_pos_weight': 1, 'learning_rate': 0.025, 'n_estimators': 5000, 'colsample_bytree': 0.6, 'silent': 1, 'min_child_weight': 7, 'subsample': 0.8, 'eta': 0.05, 'objective': 'binary:logistic', 'max_depth': 6, 'gamma': 0}
+2018-01-31 20:09:42,589 - gridsearch_1_xgb.py:114 - search - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 20:09:42,590 - gridsearch_1_xgb.py:122 - search - {'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.5, 0.6, 0.8], 'max_depth': [5, 6, 7, 8]}
+2018-01-31 20:09:42,590 - gridsearch_1_xgb.py:60 - search - Begin grid searching. Params group number is 72
+2018-01-31 20:09:42,590 - gridsearch_1_xgb.py:63 - search - Searching 1/72
+2018-01-31 20:22:24,159 - gridsearch_1_xgb.py:114 - search - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 20:22:24,159 - gridsearch_1_xgb.py:122 - search - {'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.5, 0.6, 0.8], 'max_depth': [5, 6, 7, 8]}
+2018-01-31 20:22:24,160 - gridsearch_1_xgb.py:60 - search - Begin grid searching. Params group number is 72
+2018-01-31 20:22:24,160 - gridsearch_1_xgb.py:63 - search - Searching 1/72
+2018-01-31 20:36:28,753 - gridsearch_1_xgb.py:114 - search - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 20:36:28,753 - gridsearch_1_xgb.py:122 - search - {'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.5, 0.6, 0.8], 'max_depth': [5, 6, 7, 8]}
+2018-01-31 20:36:28,754 - gridsearch_1_xgb.py:60 - search - Begin grid searching. Params group number is 72
+2018-01-31 20:36:28,754 - gridsearch_1_xgb.py:63 - search - Searching 1/72
+2018-01-31 20:54:43,149 - gridsearch_1_xgb.py:72 - search - Best_auc=0.969193; auc=0.969193, round=3332, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 20:54:43,149 - gridsearch_1_xgb.py:63 - search - Searching 2/72
+2018-01-31 21:13:45,190 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9692992, round=3396, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 21:13:45,190 - gridsearch_1_xgb.py:63 - search - Searching 3/72
+2018-01-31 21:21:14,456 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9688074, round=1340, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 21:21:14,456 - gridsearch_1_xgb.py:63 - search - Searching 4/72
+2018-01-31 21:30:25,785 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9692022, round=1616, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 21:30:25,785 - gridsearch_1_xgb.py:63 - search - Searching 5/72
+2018-01-31 21:33:52,092 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9685024, round=593, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 21:33:52,093 - gridsearch_1_xgb.py:63 - search - Searching 6/72
+2018-01-31 21:37:36,905 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9688478, round=634, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 5}
+2018-01-31 21:37:36,905 - gridsearch_1_xgb.py:63 - search - Searching 7/72
+2018-01-31 21:55:38,188 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9689202, round=2843, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 21:55:38,188 - gridsearch_1_xgb.py:63 - search - Searching 8/72
+2018-01-31 22:15:13,884 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9692116, round=3016, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 22:15:13,884 - gridsearch_1_xgb.py:63 - search - Searching 9/72
+2018-01-31 22:22:56,001 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9687906, round=1192, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 22:22:56,001 - gridsearch_1_xgb.py:63 - search - Searching 10/72
+2018-01-31 22:31:50,135 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9691166, round=1350, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 22:31:50,135 - gridsearch_1_xgb.py:63 - search - Searching 11/72
+2018-01-31 22:36:04,543 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9683366, round=639, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 22:36:04,544 - gridsearch_1_xgb.py:63 - search - Searching 12/72
+2018-01-31 22:41:31,346 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9687902, round=809, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 5}
+2018-01-31 22:41:31,346 - gridsearch_1_xgb.py:63 - search - Searching 13/72
+2018-01-31 23:06:39,974 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.968869, round=3138, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-01-31 23:06:39,975 - gridsearch_1_xgb.py:63 - search - Searching 14/72
+2018-01-31 23:33:31,368 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9692174, round=3246, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-01-31 23:33:31,368 - gridsearch_1_xgb.py:63 - search - Searching 15/72
+2018-01-31 23:44:56,301 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9687736, round=1396, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-01-31 23:44:56,301 - gridsearch_1_xgb.py:63 - search - Searching 16/72
+2018-01-31 23:56:05,643 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9689822, round=1325, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-01-31 23:56:05,643 - gridsearch_1_xgb.py:63 - search - Searching 17/72
+2018-02-01 00:01:26,239 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9685634, round=632, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-02-01 00:01:26,240 - gridsearch_1_xgb.py:63 - search - Searching 18/72
+2018-02-01 00:06:21,048 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9692992; auc=0.9683162, round=561, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 5}
+2018-02-01 00:06:21,048 - gridsearch_1_xgb.py:63 - search - Searching 19/72
+2018-02-01 00:23:06,167 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9693464; auc=0.9693464, round=2593, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 00:23:06,167 - gridsearch_1_xgb.py:63 - search - Searching 20/72
+2018-02-01 00:42:50,979 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9696588, round=2983, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 00:42:50,979 - gridsearch_1_xgb.py:63 - search - Searching 21/72
+2018-02-01 00:50:37,362 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9690424, round=1185, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 00:50:37,362 - gridsearch_1_xgb.py:63 - search - Searching 22/72
+2018-02-01 00:57:50,826 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9694506, round=1065, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 00:57:50,826 - gridsearch_1_xgb.py:63 - search - Searching 23/72
+2018-02-01 01:01:26,784 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9688916, round=526, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 01:01:26,784 - gridsearch_1_xgb.py:63 - search - Searching 24/72
+2018-02-01 01:05:37,431 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9690986, round=600, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 6}
+2018-02-01 01:05:37,432 - gridsearch_1_xgb.py:63 - search - Searching 25/72
+2018-02-01 01:23:58,418 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9692338, round=2458, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 01:23:58,418 - gridsearch_1_xgb.py:63 - search - Searching 26/72
+2018-02-01 01:45:35,580 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9694954, round=2826, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 01:45:35,580 - gridsearch_1_xgb.py:63 - search - Searching 27/72
+2018-02-01 01:53:32,808 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9688412, round=1043, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 01:53:32,808 - gridsearch_1_xgb.py:63 - search - Searching 28/72
+2018-02-01 02:02:58,193 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9694472, round=1209, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 02:02:58,193 - gridsearch_1_xgb.py:63 - search - Searching 29/72
+2018-02-01 02:07:25,933 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9686476, round=568, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 02:07:25,933 - gridsearch_1_xgb.py:63 - search - Searching 30/72
+2018-02-01 02:12:08,336 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.968858, round=583, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 6}
+2018-02-01 02:12:08,337 - gridsearch_1_xgb.py:63 - search - Searching 31/72
+2018-02-01 02:35:10,340 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.96888, round=2418, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 02:35:10,341 - gridsearch_1_xgb.py:63 - search - Searching 32/72
+2018-02-01 03:04:24,114 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.969343, round=3001, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 03:04:24,115 - gridsearch_1_xgb.py:63 - search - Searching 33/72
+2018-02-01 03:15:40,033 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.968837, round=1165, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 03:15:40,034 - gridsearch_1_xgb.py:63 - search - Searching 34/72
+2018-02-01 03:26:17,437 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9690542, round=1063, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 03:26:17,437 - gridsearch_1_xgb.py:63 - search - Searching 35/72
+2018-02-01 03:31:41,414 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9683274, round=537, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 03:31:41,415 - gridsearch_1_xgb.py:63 - search - Searching 36/72
+2018-02-01 03:38:25,011 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.9688252, round=659, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 6}
+2018-02-01 03:38:25,012 - gridsearch_1_xgb.py:63 - search - Searching 37/72
+2018-02-01 03:54:25,553 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9696588; auc=0.96932, round=2165, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 03:54:25,553 - gridsearch_1_xgb.py:63 - search - Searching 38/72
+2018-02-01 04:11:30,618 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9697354, round=2228, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 04:11:30,618 - gridsearch_1_xgb.py:63 - search - Searching 39/72
+2018-02-01 04:18:01,092 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9691608, round=855, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 04:18:01,093 - gridsearch_1_xgb.py:63 - search - Searching 40/72
+2018-02-01 04:26:17,076 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9696154, round=1057, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 04:26:17,077 - gridsearch_1_xgb.py:63 - search - Searching 41/72
+2018-02-01 04:29:25,698 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.968698, round=391, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 04:29:25,698 - gridsearch_1_xgb.py:63 - search - Searching 42/72
+2018-02-01 04:33:07,688 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9689692, round=451, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 7}
+2018-02-01 04:33:07,688 - gridsearch_1_xgb.py:63 - search - Searching 43/72
+2018-02-01 04:49:55,389 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9690624, round=1953, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 04:49:55,390 - gridsearch_1_xgb.py:63 - search - Searching 44/72
+2018-02-01 05:11:41,549 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9696196, round=2462, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 05:11:41,550 - gridsearch_1_xgb.py:63 - search - Searching 45/72
+2018-02-01 05:19:50,880 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9688718, round=929, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 05:19:50,880 - gridsearch_1_xgb.py:63 - search - Searching 46/72
+2018-02-01 05:29:08,181 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.969484, round=1027, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 05:29:08,182 - gridsearch_1_xgb.py:63 - search - Searching 47/72
+2018-02-01 05:33:17,817 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.96851, round=453, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 05:33:17,817 - gridsearch_1_xgb.py:63 - search - Searching 48/72
+2018-02-01 05:37:34,870 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.969042, round=451, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 7}
+2018-02-01 05:37:34,870 - gridsearch_1_xgb.py:63 - search - Searching 49/72
+2018-02-01 06:03:53,780 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9691534, round=2412, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 06:03:53,781 - gridsearch_1_xgb.py:63 - search - Searching 50/72
+2018-02-01 06:28:31,839 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.969426, round=2173, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 06:28:31,840 - gridsearch_1_xgb.py:63 - search - Searching 51/72
+2018-02-01 06:37:23,198 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.968633, round=783, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 06:37:23,198 - gridsearch_1_xgb.py:63 - search - Searching 52/72
+2018-02-01 06:48:00,051 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9691198, round=914, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 06:48:00,051 - gridsearch_1_xgb.py:63 - search - Searching 53/72
+2018-02-01 06:53:21,000 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9685462, round=457, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 06:53:21,000 - gridsearch_1_xgb.py:63 - search - Searching 54/72
+2018-02-01 07:00:33,105 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9686828, round=610, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 7}
+2018-02-01 07:00:33,105 - gridsearch_1_xgb.py:63 - search - Searching 55/72
+2018-02-01 07:16:16,375 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9692464, round=1891, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:16:16,375 - gridsearch_1_xgb.py:63 - search - Searching 56/72
+2018-02-01 07:33:06,561 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9696066, round=1947, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:33:06,562 - gridsearch_1_xgb.py:63 - search - Searching 57/72
+2018-02-01 07:39:42,674 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.969225, round=752, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:39:42,675 - gridsearch_1_xgb.py:63 - search - Searching 58/72
+2018-02-01 07:47:37,635 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9693424, round=895, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:47:37,635 - gridsearch_1_xgb.py:63 - search - Searching 59/72
+2018-02-01 07:50:59,256 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9685428, round=371, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:50:59,256 - gridsearch_1_xgb.py:63 - search - Searching 60/72
+2018-02-01 07:55:04,303 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9687264, round=442, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.5, 'max_depth': 8}
+2018-02-01 07:55:04,303 - gridsearch_1_xgb.py:63 - search - Searching 61/72
+2018-02-01 08:11:45,982 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9692172, round=1724, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:11:45,982 - gridsearch_1_xgb.py:63 - search - Searching 62/72
+2018-02-01 08:30:28,683 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9694968, round=1857, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:30:28,683 - gridsearch_1_xgb.py:63 - search - Searching 63/72
+2018-02-01 08:39:14,614 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9690046, round=889, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:39:14,614 - gridsearch_1_xgb.py:63 - search - Searching 64/72
+2018-02-01 08:47:35,536 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.96943, round=808, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:47:35,536 - gridsearch_1_xgb.py:63 - search - Searching 65/72
+2018-02-01 08:51:32,858 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.96858, round=372, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:51:32,858 - gridsearch_1_xgb.py:63 - search - Searching 66/72
+2018-02-01 08:56:23,312 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9690502, round=444, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.6, 'max_depth': 8}
+2018-02-01 08:56:23,312 - gridsearch_1_xgb.py:63 - search - Searching 67/72
+2018-02-01 09:18:03,176 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9690346, round=1724, params={'subsample': 0.6, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 09:18:03,176 - gridsearch_1_xgb.py:63 - search - Searching 68/72
+2018-02-01 09:59:23,202 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9693, round=1902, params={'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 09:59:23,202 - gridsearch_1_xgb.py:63 - search - Searching 69/72
+2018-02-01 10:13:28,954 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9688752, round=904, params={'subsample': 0.6, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 10:13:28,954 - gridsearch_1_xgb.py:63 - search - Searching 70/72
+2018-02-01 10:27:32,563 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9691416, round=861, params={'subsample': 0.8, 'learning_rate': 0.025, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 10:27:32,564 - gridsearch_1_xgb.py:63 - search - Searching 71/72
+2018-02-01 10:31:52,226 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9680798, round=300, params={'subsample': 0.6, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 10:31:52,226 - gridsearch_1_xgb.py:63 - search - Searching 72/72
+2018-02-01 10:38:01,287 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9697354; auc=0.9688428, round=441, params={'subsample': 0.8, 'learning_rate': 0.05, 'colsample_bytree': 0.8, 'max_depth': 8}
+2018-02-01 10:38:01,287 - gridsearch_1_xgb.py:75 - search - Finished Search! Best auc=0.9697354. Best params are 
+{'subsample': 0.8, 'learning_rate': 0.01, 'colsample_bytree': 0.5, 'max_depth': 7}

@@ -1,0 +1,196 @@
+2018-01-30 17:06:01,515 - m1_xgb.py:111 - train - X_train.shape=(40307, 270), X_test.shape=(10076, 270)
+2018-01-30 17:16:21,772 - m1_xgb.py:119 - train - best_round=757, best_auc=0.9678065
+2018-01-30 20:36:05,225 - m1_xgb.py:111 - train - X_train.shape=(40307, 354), X_test.shape=(10076, 354)
+2018-01-30 20:52:49,641 - m1_xgb.py:119 - train - best_round=954, best_auc=0.9693912
+2018-01-30 21:09:04,184 - m1_xgb.py:111 - train - X_train.shape=(40307, 366), X_test.shape=(10076, 366)
+2018-01-30 21:21:47,589 - m1_xgb.py:119 - train - best_round=721, best_auc=0.9691519
+2018-01-30 21:30:23,367 - m1_xgb.py:111 - train - X_train.shape=(40307, 342), X_test.shape=(10076, 342)
+2018-01-30 21:45:39,626 - m1_xgb.py:119 - train - best_round=907, best_auc=0.9697423
+2018-01-31 10:13:41,616 - m1_xgb.py:111 - train - X_train.shape=(40307, 306), X_test.shape=(10076, 306)
+2018-01-31 10:26:03,186 - m1_xgb.py:119 - train - best_round=801, best_auc=0.9688747
+2018-01-31 10:35:27,460 - m1_xgb.py:111 - train - X_train.shape=(40307, 346), X_test.shape=(10076, 346)
+2018-01-31 10:48:19,981 - m1_xgb.py:119 - train - best_round=730, best_auc=0.9694325
+2018-01-31 10:49:23,040 - m1_xgb.py:111 - train - X_train.shape=(40307, 348), X_test.shape=(10076, 348)
+2018-01-31 11:02:31,194 - m1_xgb.py:119 - train - best_round=724, best_auc=0.9689712
+2018-01-31 11:27:54,031 - m1_xgb.py:111 - train - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 11:44:09,219 - m1_xgb.py:119 - train - best_round=942, best_auc=0.9696117
+2018-02-02 15:24:42,219 - m1_xgb.py:114 - train - X_train.shape=(40307, 317), X_test.shape=(10076, 317)
+2018-02-02 15:57:18,567 - m1_xgb.py:122 - train - best_round=526, best_auc=0.9695288
+2018-02-02 17:25:22,665 - m1_xgb.py:114 - train - X_train.shape=(40307, 279), X_test.shape=(10076, 279)
+2018-02-02 17:55:27,977 - m1_xgb.py:122 - train - best_round=617, best_auc=0.9698227
+2018-02-02 20:40:46,940 - m1_xgb.py:114 - train - X_train.shape=(40307, 288), X_test.shape=(10076, 288)
+2018-02-02 21:03:25,663 - m1_xgb.py:122 - train - best_round=479, best_auc=0.9701489
+2018-02-02 23:26:51,885 - m1_xgb.py:115 - train - X_train.shape=(40307, 305), X_test.shape=(10076, 305)
+2018-02-02 23:36:18,006 - m1_xgb.py:115 - train - X_train.shape=(40307, 305), X_test.shape=(10076, 305)
+2018-02-02 23:39:00,165 - m1_xgb.py:115 - train - X_train.shape=(40307, 300), X_test.shape=(10076, 300)
+2018-02-03 09:03:40,620 - m1_xgb.py:115 - train - X_train.shape=(40307, 315), X_test.shape=(10076, 315)
+2018-02-03 09:46:52,337 - m1_xgb.py:123 - train - best_round=665, best_auc=0.9703272
+2018-02-03 10:15:59,219 - m1_xgb.py:115 - train - X_train.shape=(40307, 351), X_test.shape=(10076, 351)
+2018-02-03 11:05:48,181 - m1_xgb.py:123 - train - best_round=744, best_auc=0.9704566
+2018-02-05 10:36:25,731 - m1_xgb.py:115 - train - X_train.shape=(40307, 318), X_test.shape=(10076, 318)
+2018-02-05 14:34:29,997 - m1_xgb.py:115 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 14:55:56,719 - m1_xgb.py:123 - train - best_round=757, best_auc=0.9704149
+2018-02-05 23:10:29,380 - m1_xgb.py:117 - train - X_train.shape=(40307, 358), X_test.shape=(10076, 358)
+2018-02-05 23:22:40,473 - m1_xgb.py:126 - train - best_round=659, best_auc=0.9703076
+2018-02-06 23:37:44,785 - m1_xgb.py:140 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-06 23:50:03,189 - m1_xgb.py:144 - train - best_round=642, best_auc=0.9708815
+2018-02-07 00:28:21,531 - m1_xgb.py:113 - train - X_train.shape=(40307, 360), X_test.shape=(10076, 360)
+2018-02-07 00:40:11,286 - m1_xgb.py:117 - train - best_round=637, best_auc=0.970519
+2018-02-07 00:40:11,396 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_1.npz. Best auc is 0.970519
+2018-02-07 00:40:11,427 - m1_xgb.py:113 - train - X_train.shape=(40307, 359), X_test.shape=(10076, 359)
+2018-02-07 00:51:48,752 - m1_xgb.py:117 - train - best_round=632, best_auc=0.9707944
+2018-02-07 00:51:48,859 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_2.npz. Best auc is 0.9707944
+2018-02-07 00:51:48,889 - m1_xgb.py:113 - train - X_train.shape=(40307, 358), X_test.shape=(10076, 358)
+2018-02-07 01:02:52,189 - m1_xgb.py:117 - train - best_round=602, best_auc=0.9709653
+2018-02-07 01:02:52,297 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_3.npz. Best auc is 0.9709653
+2018-02-07 01:02:52,328 - m1_xgb.py:113 - train - X_train.shape=(40307, 357), X_test.shape=(10076, 357)
+2018-02-07 01:15:42,532 - m1_xgb.py:117 - train - best_round=708, best_auc=0.9705879
+2018-02-07 01:15:42,645 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_4.npz. Best auc is 0.9709653
+2018-02-07 01:15:42,675 - m1_xgb.py:113 - train - X_train.shape=(40307, 356), X_test.shape=(10076, 356)
+2018-02-07 01:26:28,569 - m1_xgb.py:117 - train - best_round=589, best_auc=0.9707386
+2018-02-07 01:26:28,674 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_5.npz. Best auc is 0.9709653
+2018-02-07 01:26:28,704 - m1_xgb.py:113 - train - X_train.shape=(40307, 355), X_test.shape=(10076, 355)
+2018-02-07 01:36:22,697 - m1_xgb.py:117 - train - best_round=537, best_auc=0.9708709
+2018-02-07 01:36:22,796 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_6.npz. Best auc is 0.9709653
+2018-02-07 01:36:22,826 - m1_xgb.py:113 - train - X_train.shape=(40307, 354), X_test.shape=(10076, 354)
+2018-02-07 01:47:53,543 - m1_xgb.py:117 - train - best_round=634, best_auc=0.9708356
+2018-02-07 01:47:53,660 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_7.npz. Best auc is 0.9709653
+2018-02-07 01:47:53,690 - m1_xgb.py:113 - train - X_train.shape=(40307, 353), X_test.shape=(10076, 353)
+2018-02-07 01:58:20,894 - m1_xgb.py:117 - train - best_round=573, best_auc=0.9704388
+2018-02-07 01:58:21,000 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_8.npz. Best auc is 0.9709653
+2018-02-07 01:58:21,029 - m1_xgb.py:113 - train - X_train.shape=(40307, 352), X_test.shape=(10076, 352)
+2018-02-07 02:08:48,671 - m1_xgb.py:117 - train - best_round=573, best_auc=0.9706201
+2018-02-07 02:08:48,776 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_9.npz. Best auc is 0.9709653
+2018-02-07 02:08:48,806 - m1_xgb.py:113 - train - X_train.shape=(40307, 351), X_test.shape=(10076, 351)
+2018-02-07 02:20:06,513 - m1_xgb.py:117 - train - best_round=626, best_auc=0.9711423
+2018-02-07 02:20:06,619 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_10.npz. Best auc is 0.9711423
+2018-02-07 02:20:06,649 - m1_xgb.py:113 - train - X_train.shape=(40307, 350), X_test.shape=(10076, 350)
+2018-02-07 02:31:58,391 - m1_xgb.py:117 - train - best_round=660, best_auc=0.9707189
+2018-02-07 02:31:58,510 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_11.npz. Best auc is 0.9711423
+2018-02-07 02:31:58,540 - m1_xgb.py:113 - train - X_train.shape=(40307, 349), X_test.shape=(10076, 349)
+2018-02-07 02:42:55,059 - m1_xgb.py:117 - train - best_round=606, best_auc=0.9705492
+2018-02-07 02:42:55,170 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_12.npz. Best auc is 0.9711423
+2018-02-07 02:42:55,199 - m1_xgb.py:113 - train - X_train.shape=(40307, 348), X_test.shape=(10076, 348)
+2018-02-07 02:53:09,417 - m1_xgb.py:117 - train - best_round=564, best_auc=0.9705793
+2018-02-07 02:53:09,524 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_13.npz. Best auc is 0.9711423
+2018-02-07 02:53:09,554 - m1_xgb.py:113 - train - X_train.shape=(40307, 347), X_test.shape=(10076, 347)
+2018-02-07 03:04:41,936 - m1_xgb.py:117 - train - best_round=643, best_auc=0.9707181
+2018-02-07 03:04:42,045 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_14.npz. Best auc is 0.9711423
+2018-02-07 03:04:42,073 - m1_xgb.py:113 - train - X_train.shape=(40307, 346), X_test.shape=(10076, 346)
+2018-02-07 03:14:52,023 - m1_xgb.py:117 - train - best_round=563, best_auc=0.9708174
+2018-02-07 03:14:52,137 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_15.npz. Best auc is 0.9711423
+2018-02-07 03:14:52,166 - m1_xgb.py:113 - train - X_train.shape=(40307, 345), X_test.shape=(10076, 345)
+2018-02-07 03:25:15,062 - m1_xgb.py:117 - train - best_round=576, best_auc=0.9705961
+2018-02-07 03:25:15,175 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_16.npz. Best auc is 0.9711423
+2018-02-07 03:25:15,204 - m1_xgb.py:113 - train - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-02-07 03:39:31,270 - m1_xgb.py:117 - train - best_round=816, best_auc=0.9706107
+2018-02-07 03:39:31,395 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_17.npz. Best auc is 0.9711423
+2018-02-07 03:39:31,424 - m1_xgb.py:113 - train - X_train.shape=(40307, 343), X_test.shape=(10076, 343)
+2018-02-07 03:50:55,923 - m1_xgb.py:117 - train - best_round=644, best_auc=0.9703774
+2018-02-07 03:50:56,040 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_18.npz. Best auc is 0.9711423
+2018-02-07 03:50:56,069 - m1_xgb.py:113 - train - X_train.shape=(40307, 342), X_test.shape=(10076, 342)
+2018-02-07 04:02:25,008 - m1_xgb.py:117 - train - best_round=648, best_auc=0.9708054
+2018-02-07 04:02:25,126 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_19.npz. Best auc is 0.9711423
+2018-02-07 04:02:25,157 - m1_xgb.py:113 - train - X_train.shape=(40307, 341), X_test.shape=(10076, 341)
+2018-02-07 04:12:51,194 - m1_xgb.py:117 - train - best_round=586, best_auc=0.9707316
+2018-02-07 04:12:51,320 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_20.npz. Best auc is 0.9711423
+2018-02-07 04:12:51,349 - m1_xgb.py:113 - train - X_train.shape=(40307, 340), X_test.shape=(10076, 340)
+2018-02-07 04:24:49,147 - m1_xgb.py:117 - train - best_round=677, best_auc=0.9707794
+2018-02-07 04:24:49,262 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_21.npz. Best auc is 0.9711423
+2018-02-07 04:24:49,293 - m1_xgb.py:113 - train - X_train.shape=(40307, 339), X_test.shape=(10076, 339)
+2018-02-07 04:37:56,341 - m1_xgb.py:117 - train - best_round=751, best_auc=0.9706854
+2018-02-07 04:37:56,460 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_22.npz. Best auc is 0.9711423
+2018-02-07 04:37:56,489 - m1_xgb.py:113 - train - X_train.shape=(40307, 338), X_test.shape=(10076, 338)
+2018-02-07 04:47:53,324 - m1_xgb.py:117 - train - best_round=558, best_auc=0.9705237
+2018-02-07 04:47:53,426 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_23.npz. Best auc is 0.9711423
+2018-02-07 04:47:53,457 - m1_xgb.py:113 - train - X_train.shape=(40307, 337), X_test.shape=(10076, 337)
+2018-02-07 04:59:28,128 - m1_xgb.py:117 - train - best_round=656, best_auc=0.9705628
+2018-02-07 04:59:28,241 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_24.npz. Best auc is 0.9711423
+2018-02-07 04:59:28,270 - m1_xgb.py:113 - train - X_train.shape=(40307, 336), X_test.shape=(10076, 336)
+2018-02-07 05:09:55,315 - m1_xgb.py:117 - train - best_round=590, best_auc=0.9706099
+2018-02-07 05:09:55,421 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_25.npz. Best auc is 0.9711423
+2018-02-07 05:09:55,452 - m1_xgb.py:113 - train - X_train.shape=(40307, 335), X_test.shape=(10076, 335)
+2018-02-07 05:18:30,330 - m1_xgb.py:117 - train - best_round=474, best_auc=0.9700615
+2018-02-07 05:18:30,429 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_26.npz. Best auc is 0.9711423
+2018-02-07 05:18:30,458 - m1_xgb.py:113 - train - X_train.shape=(40307, 334), X_test.shape=(10076, 334)
+2018-02-07 05:30:43,416 - m1_xgb.py:117 - train - best_round=700, best_auc=0.9706526
+2018-02-07 05:30:43,554 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_27.npz. Best auc is 0.9711423
+2018-02-07 05:30:43,585 - m1_xgb.py:113 - train - X_train.shape=(40307, 333), X_test.shape=(10076, 333)
+2018-02-07 05:41:57,652 - m1_xgb.py:117 - train - best_round=640, best_auc=0.9708147
+2018-02-07 05:41:57,767 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_28.npz. Best auc is 0.9711423
+2018-02-07 05:41:57,795 - m1_xgb.py:113 - train - X_train.shape=(40307, 332), X_test.shape=(10076, 332)
+2018-02-07 05:54:57,857 - m1_xgb.py:117 - train - best_round=750, best_auc=0.9705807
+2018-02-07 05:54:57,980 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_29.npz. Best auc is 0.9711423
+2018-02-07 05:54:58,010 - m1_xgb.py:113 - train - X_train.shape=(40307, 331), X_test.shape=(10076, 331)
+2018-02-07 06:04:38,826 - m1_xgb.py:117 - train - best_round=545, best_auc=0.9706677
+2018-02-07 06:04:38,928 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_30.npz. Best auc is 0.9711423
+2018-02-07 06:04:38,957 - m1_xgb.py:113 - train - X_train.shape=(40307, 330), X_test.shape=(10076, 330)
+2018-02-07 06:14:09,958 - m1_xgb.py:117 - train - best_round=536, best_auc=0.9706396
+2018-02-07 06:14:10,059 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_31.npz. Best auc is 0.9711423
+2018-02-07 06:14:10,089 - m1_xgb.py:113 - train - X_train.shape=(40307, 329), X_test.shape=(10076, 329)
+2018-02-07 06:25:31,180 - m1_xgb.py:117 - train - best_round=650, best_auc=0.9707182
+2018-02-07 06:25:31,292 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_32.npz. Best auc is 0.9711423
+2018-02-07 06:25:31,321 - m1_xgb.py:113 - train - X_train.shape=(40307, 328), X_test.shape=(10076, 328)
+2018-02-07 06:38:06,746 - m1_xgb.py:117 - train - best_round=729, best_auc=0.9708661
+2018-02-07 06:38:06,874 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_33.npz. Best auc is 0.9711423
+2018-02-07 06:38:06,905 - m1_xgb.py:113 - train - X_train.shape=(40307, 327), X_test.shape=(10076, 327)
+2018-02-07 06:46:18,394 - m1_xgb.py:117 - train - best_round=454, best_auc=0.9705738
+2018-02-07 06:46:18,488 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_34.npz. Best auc is 0.9711423
+2018-02-07 06:46:18,516 - m1_xgb.py:113 - train - X_train.shape=(40307, 326), X_test.shape=(10076, 326)
+2018-02-07 06:56:11,425 - m1_xgb.py:117 - train - best_round=560, best_auc=0.9706565
+2018-02-07 06:56:11,533 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_35.npz. Best auc is 0.9711423
+2018-02-07 06:56:11,560 - m1_xgb.py:113 - train - X_train.shape=(40307, 325), X_test.shape=(10076, 325)
+2018-02-07 07:06:18,387 - m1_xgb.py:117 - train - best_round=573, best_auc=0.9708468
+2018-02-07 07:06:18,494 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_36.npz. Best auc is 0.9711423
+2018-02-07 07:06:18,522 - m1_xgb.py:113 - train - X_train.shape=(40307, 324), X_test.shape=(10076, 324)
+2018-02-07 07:17:20,999 - m1_xgb.py:117 - train - best_round=630, best_auc=0.9707921
+2018-02-07 07:17:21,109 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_37.npz. Best auc is 0.9711423
+2018-02-07 07:17:21,136 - m1_xgb.py:113 - train - X_train.shape=(40307, 323), X_test.shape=(10076, 323)
+2018-02-07 07:28:48,797 - m1_xgb.py:117 - train - best_round=657, best_auc=0.9704768
+2018-02-07 07:28:48,910 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_38.npz. Best auc is 0.9711423
+2018-02-07 07:28:48,938 - m1_xgb.py:113 - train - X_train.shape=(40307, 322), X_test.shape=(10076, 322)
+2018-02-07 07:40:37,004 - m1_xgb.py:117 - train - best_round=670, best_auc=0.9707485
+2018-02-07 07:40:37,117 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_39.npz. Best auc is 0.9711423
+2018-02-07 07:40:37,144 - m1_xgb.py:113 - train - X_train.shape=(40307, 321), X_test.shape=(10076, 321)
+2018-02-07 07:49:18,129 - m1_xgb.py:117 - train - best_round=488, best_auc=0.9708148
+2018-02-07 07:49:18,227 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_40.npz. Best auc is 0.9711423
+2018-02-07 07:49:18,254 - m1_xgb.py:113 - train - X_train.shape=(40307, 320), X_test.shape=(10076, 320)
+2018-02-07 07:59:41,987 - m1_xgb.py:117 - train - best_round=593, best_auc=0.9706798
+2018-02-07 07:59:42,093 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_41.npz. Best auc is 0.9711423
+2018-02-07 07:59:42,120 - m1_xgb.py:113 - train - X_train.shape=(40307, 319), X_test.shape=(10076, 319)
+2018-02-07 08:10:44,853 - m1_xgb.py:117 - train - best_round=636, best_auc=0.9709801
+2018-02-07 08:10:44,977 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_42.npz. Best auc is 0.9711423
+2018-02-07 08:10:45,009 - m1_xgb.py:113 - train - X_train.shape=(40307, 318), X_test.shape=(10076, 318)
+2018-02-07 08:20:15,354 - m1_xgb.py:117 - train - best_round=541, best_auc=0.9708138
+2018-02-07 08:20:15,464 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_43.npz. Best auc is 0.9711423
+2018-02-07 08:20:15,494 - m1_xgb.py:113 - train - X_train.shape=(40307, 317), X_test.shape=(10076, 317)
+2018-02-07 08:29:34,545 - m1_xgb.py:117 - train - best_round=526, best_auc=0.9705612
+2018-02-07 08:29:34,655 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_44.npz. Best auc is 0.9711423
+2018-02-07 08:29:34,683 - m1_xgb.py:113 - train - X_train.shape=(40307, 316), X_test.shape=(10076, 316)
+2018-02-07 08:40:52,160 - m1_xgb.py:117 - train - best_round=652, best_auc=0.9707018
+2018-02-07 08:40:52,279 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_45.npz. Best auc is 0.9711423
+2018-02-07 08:40:52,305 - m1_xgb.py:113 - train - X_train.shape=(40307, 315), X_test.shape=(10076, 315)
+2018-02-07 08:50:41,503 - m1_xgb.py:117 - train - best_round=559, best_auc=0.9705231
+2018-02-07 08:50:41,610 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_46.npz. Best auc is 0.9711423
+2018-02-07 08:50:41,642 - m1_xgb.py:113 - train - X_train.shape=(40307, 314), X_test.shape=(10076, 314)
+2018-02-07 09:00:25,046 - m1_xgb.py:117 - train - best_round=556, best_auc=0.9706619
+2018-02-07 09:00:25,154 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_47.npz. Best auc is 0.9711423
+2018-02-07 09:00:25,186 - m1_xgb.py:113 - train - X_train.shape=(40307, 313), X_test.shape=(10076, 313)
+2018-02-07 09:12:54,178 - m1_xgb.py:117 - train - best_round=729, best_auc=0.9708028
+2018-02-07 09:12:54,298 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_48.npz. Best auc is 0.9711423
+2018-02-07 09:12:54,326 - m1_xgb.py:113 - train - X_train.shape=(40307, 312), X_test.shape=(10076, 312)
+2018-02-07 09:23:40,366 - m1_xgb.py:117 - train - best_round=622, best_auc=0.9709414
+2018-02-07 09:23:40,495 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_49.npz. Best auc is 0.9711423
+2018-02-07 09:23:40,521 - m1_xgb.py:113 - train - X_train.shape=(40307, 311), X_test.shape=(10076, 311)
+2018-02-07 09:37:05,269 - m1_xgb.py:117 - train - best_round=789, best_auc=0.970925
+2018-02-07 09:37:05,396 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_50.npz. Best auc is 0.9711423
+2018-02-07 09:37:05,430 - m1_xgb.py:113 - train - X_train.shape=(40307, 310), X_test.shape=(10076, 310)
+2018-02-07 09:46:24,260 - m1_xgb.py:117 - train - best_round=532, best_auc=0.9706117
+2018-02-07 09:46:24,370 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_51.npz. Best auc is 0.9711423
+2018-02-07 09:46:24,399 - m1_xgb.py:113 - train - X_train.shape=(40307, 309), X_test.shape=(10076, 309)
+2018-02-07 09:56:40,091 - m1_xgb.py:117 - train - best_round=592, best_auc=0.9709498
+2018-02-07 09:56:40,198 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_52.npz. Best auc is 0.9711423
+2018-02-07 09:56:40,224 - m1_xgb.py:113 - train - X_train.shape=(40307, 308), X_test.shape=(10076, 308)
+2018-02-07 10:07:06,380 - m1_xgb.py:117 - train - best_round=609, best_auc=0.9706949
+2018-02-07 10:07:06,492 - m1_xgb.py:130 - train - Saved y_preds to xgb_feat_search_pred_53.npz. Best auc is 0.9711423
+2018-02-07 10:07:06,525 - m1_xgb.py:113 - train - X_train.shape=(40307, 307), X_test.shape=(10076, 307)

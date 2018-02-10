@@ -1,0 +1,48 @@
+2018-01-30 17:26:32,928 - m2_lgb.py:106 - train - X_train.shape=(40307, 318), X_test.shape=(10076, 318)
+2018-01-30 17:28:59,329 - m2_lgb.py:114 - train - best_round=350, best_auc=0.97019201826
+2018-01-30 17:30:39,357 - m2_lgb.py:106 - train - X_train.shape=(40307, 318), X_test.shape=(10076, 318)
+2018-01-31 11:18:08,490 - m2_lgb.py:106 - train - X_train.shape=(40307, 344), X_test.shape=(10076, 344)
+2018-01-31 11:19:52,996 - m2_lgb.py:114 - train - best_round=236, best_auc=0.969644672845
+2018-02-02 23:47:50,904 - m2_lgb.py:107 - train - X_train.shape=(40307, 306), X_test.shape=(10076, 306)
+2018-02-03 00:25:18,607 - m2_lgb.py:115 - train - best_round=590, best_auc=0.970642289782
+2018-02-05 12:01:33,767 - m2_lgb.py:109 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 12:03:48,673 - m2_lgb.py:109 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 12:05:44,648 - m2_lgb.py:109 - train - X_train.shape=(40307, 353), X_test.shape=(10076, 353)
+2018-02-05 12:06:42,871 - m2_lgb.py:117 - train - best_round=523, best_auc=0.970471856679
+2018-02-05 12:10:06,162 - m2_lgb.py:109 - train - X_train.shape=(40307, 357), X_test.shape=(10076, 357)
+2018-02-05 12:12:21,743 - m2_lgb.py:109 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 12:13:22,518 - m2_lgb.py:117 - train - best_round=541, best_auc=0.970792625998
+2018-02-05 13:59:12,205 - m2_lgb.py:109 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 14:00:47,721 - m2_lgb.py:117 - train - best_round=434, best_auc=0.970689338504
+2018-02-05 14:03:25,232 - m2_lgb.py:109 - train - X_train.shape=(40307, 365), X_test.shape=(10076, 365)
+2018-02-05 14:04:28,794 - m2_lgb.py:117 - train - best_round=541, best_auc=0.970792625998
+2018-02-05 14:06:27,500 - m2_lgb.py:109 - train - X_train.shape=(40307, 475), X_test.shape=(10076, 475)
+2018-02-05 14:07:32,859 - m2_lgb.py:117 - train - best_round=424, best_auc=0.970315825552
+2018-02-05 14:56:47,755 - m2_lgb.py:126 - train - X_train.shape=(40307, 364), X_test.shape=(10076, 364)
+2018-02-05 15:04:05,158 - m2_lgb.py:126 - train - X_train.shape=(40307, 364), X_test.shape=(10076, 364)
+2018-02-05 22:55:56,841 - m2_lgb.py:130 - train - X_train.shape=(40307, 364), X_test.shape=(10076, 364)
+2018-02-05 22:57:13,929 - m2_lgb.py:140 - train - X_train.shape=(40307, 358), X_test.shape=(10076, 358)
+2018-02-05 22:58:17,650 - m2_lgb.py:144 - train - best_round=568, best_auc=0.97107969167
+2018-02-05 23:27:37,557 - m2_lgb.py:140 - train - X_train.shape=(40307, 360), X_test.shape=(10076, 360)
+2018-02-06 10:32:11,540 - m2_lgb.py:143 - train - X_train.shape=(40307, 220), X_test.shape=(10076, 220)
+2018-02-06 10:32:54,155 - m2_lgb.py:147 - train - best_round=562, best_auc=0.970914375745
+2018-02-06 10:35:52,501 - m2_lgb.py:140 - train - X_train.shape=(40307, 360), X_test.shape=(10076, 360)
+2018-02-06 10:37:07,665 - m2_lgb.py:144 - train - best_round=674, best_auc=0.970907877972
+2018-02-06 10:38:54,198 - m2_lgb.py:140 - train - X_train.shape=(40307, 219), X_test.shape=(10076, 219)
+2018-02-06 10:39:40,079 - m2_lgb.py:144 - train - best_round=628, best_auc=0.971318253308
+2018-02-06 13:27:03,312 - m2_lgb.py:139 - train - X_train.shape=(40307, 360), X_test.shape=(10076, 360)
+2018-02-06 13:28:18,461 - m2_lgb.py:143 - train - best_round=674, best_auc=0.970907877972
+2018-02-06 13:31:05,554 - m2_lgb.py:139 - train - X_train.shape=(40307, 219), X_test.shape=(10076, 219)
+2018-02-06 13:31:51,664 - m2_lgb.py:143 - train - best_round=632, best_auc=0.971445079492
+2018-02-06 23:35:05,793 - m2_lgb.py:140 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-06 23:36:12,371 - m2_lgb.py:144 - train - best_round=591, best_auc=0.971199659692
+2018-02-07 10:17:34,631 - m2_lgb.py:141 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 10:25:09,232 - m2_lgb.py:142 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 10:26:38,368 - m2_lgb.py:146 - train - best_round=462, best_auc=0.970474719364
+2018-02-07 10:34:16,338 - m2_lgb.py:142 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 10:35:46,815 - m2_lgb.py:146 - train - best_round=462, best_auc=0.970474719364
+2018-02-07 15:25:38,771 - m2_lgb.py:142 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 15:27:24,075 - m2_lgb.py:146 - train - best_round=462, best_auc=0.970474719364
+2018-02-07 15:31:00,448 - m2_lgb.py:142 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 15:32:45,234 - m2_lgb.py:142 - train - X_train.shape=(40307, 361), X_test.shape=(10076, 361)
+2018-02-07 15:34:32,761 - m2_lgb.py:146 - train - best_round=583, best_auc=0.97050562626

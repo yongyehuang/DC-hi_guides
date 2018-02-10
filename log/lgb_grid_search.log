@@ -1,0 +1,45 @@
+2018-01-31 18:05:12,609 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 18:05:12,609 - gridsearch_2_lgb.py:120 - search - {'num_leaves': [40, 60, 90], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.6, 0.7, 0.8]}
+2018-01-31 18:05:12,609 - gridsearch_2_lgb.py:58 - search - Begin grid searching. Params group number is 27
+2018-01-31 18:11:28,179 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 18:15:58,289 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 18:17:16,548 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 18:22:13,033 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 19:30:52,811 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 19:30:52,812 - gridsearch_2_lgb.py:122 - search - {'num_leaves': [40, 60, 90], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.6, 0.7, 0.8]}
+2018-01-31 19:30:52,812 - gridsearch_2_lgb.py:58 - search - Begin grid searching. Params group number is 27
+2018-01-31 19:38:33,482 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 30), X_test.shape=(10076, 30)
+2018-01-31 19:38:33,482 - gridsearch_2_lgb.py:122 - search - {'num_leaves': [40, 60, 90], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.6, 0.7, 0.8]}
+2018-01-31 19:38:33,482 - gridsearch_2_lgb.py:58 - search - Begin grid searching. Params group number is 27
+2018-01-31 19:39:05,323 - gridsearch_2_lgb.py:108 - search - X_train.shape=(40307, 50), X_test.shape=(10076, 50)
+2018-01-31 19:39:05,323 - gridsearch_2_lgb.py:122 - search - {'num_leaves': [40, 60, 90], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.6, 0.7, 0.8]}
+2018-01-31 19:39:05,323 - gridsearch_2_lgb.py:58 - search - Begin grid searching. Params group number is 27
+2018-01-31 19:39:15,735 - gridsearch_2_lgb.py:68 - search - Best_auc=0.701809983228; params={'num_leaves': 40, 'learning_rate': 0.01, 'colsample_bytree': 0.6}, auc=0.701809983228, round=194
+2018-01-31 19:39:32,355 - gridsearch_2_lgb.py:68 - search - Best_auc=0.702288957179; params={'num_leaves': 60, 'learning_rate': 0.01, 'colsample_bytree': 0.6}, auc=0.702288957179, round=305
+2018-01-31 19:39:50,841 - gridsearch_2_lgb.py:68 - search - Best_auc=0.702288957179; params={'num_leaves': 90, 'learning_rate': 0.01, 'colsample_bytree': 0.6}, auc=0.701804369458, round=300
+2018-01-31 19:40:00,061 - gridsearch_2_lgb.py:68 - search - Best_auc=0.702301981319; params={'num_leaves': 40, 'learning_rate': 0.025, 'colsample_bytree': 0.6}, auc=0.702301981319, round=172
+2018-01-31 19:40:14,094 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.025, 'colsample_bytree': 0.6}, auc=0.703459835191, round=256
+2018-01-31 19:40:31,149 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.025, 'colsample_bytree': 0.6}, auc=0.702932184679, round=275
+2018-01-31 19:40:37,640 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.05, 'colsample_bytree': 0.6}, auc=0.702799523137, round=112
+2018-01-31 19:40:45,241 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.05, 'colsample_bytree': 0.6}, auc=0.703237247463, round=115
+2018-01-31 19:40:53,724 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.05, 'colsample_bytree': 0.6}, auc=0.702924382395, round=108
+2018-01-31 19:41:03,583 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.01, 'colsample_bytree': 0.7}, auc=0.70160004792, round=181
+2018-01-31 19:41:07,502 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.01, 'colsample_bytree': 0.7}, auc=0.700344270916, round=29
+2018-01-31 19:41:11,500 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.01, 'colsample_bytree': 0.7}, auc=0.699527017921, round=21
+2018-01-31 19:41:20,367 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.025, 'colsample_bytree': 0.7}, auc=0.701971503139, round=165
+2018-01-31 19:41:33,322 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.025, 'colsample_bytree': 0.7}, auc=0.703315427004, round=226
+2018-01-31 19:41:48,748 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.025, 'colsample_bytree': 0.7}, auc=0.702875025365, round=232
+2018-01-31 19:41:55,002 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.05, 'colsample_bytree': 0.7}, auc=0.702389953115, round=105
+2018-01-31 19:42:02,701 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.05, 'colsample_bytree': 0.7}, auc=0.703184921864, round=114
+2018-01-31 19:42:11,405 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.05, 'colsample_bytree': 0.7}, auc=0.702751856764, round=107
+2018-01-31 19:42:23,811 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.01, 'colsample_bytree': 0.8}, auc=0.701864238584, round=239
+2018-01-31 19:42:28,293 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.01, 'colsample_bytree': 0.8}, auc=0.699871928735, round=37
+2018-01-31 19:43:02,568 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.01, 'colsample_bytree': 0.8}, auc=0.702908102457, round=552
+2018-01-31 19:43:14,167 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.025, 'colsample_bytree': 0.8}, auc=0.70207586608, round=234
+2018-01-31 19:43:26,775 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.025, 'colsample_bytree': 0.8}, auc=0.703101869927, round=215
+2018-01-31 19:43:44,429 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.025, 'colsample_bytree': 0.8}, auc=0.702831019845, round=260
+2018-01-31 19:43:51,139 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 40, 'learning_rate': 0.05, 'colsample_bytree': 0.8}, auc=0.702352656696, round=114
+2018-01-31 19:43:59,162 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 60, 'learning_rate': 0.05, 'colsample_bytree': 0.8}, auc=0.703040699407, round=119
+2018-01-31 19:44:08,533 - gridsearch_2_lgb.py:68 - search - Best_auc=0.703459835191; params={'num_leaves': 90, 'learning_rate': 0.05, 'colsample_bytree': 0.8}, auc=0.702942423282, round=114
+2018-01-31 19:44:08,534 - gridsearch_2_lgb.py:71 - search - Finished Search! Best auc=0.703459835191. Best params are 
+{'num_leaves': 60, 'learning_rate': 0.025, 'colsample_bytree': 0.6}
